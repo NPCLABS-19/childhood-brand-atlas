@@ -1,0 +1,367 @@
+{
+  "reviewedAt": "2026-11-04",
+  "purpose": "Brand strategy and visual-identity analysis; not product or medical recommendations.",
+  "method": "Current official websites reviewed through web retrieval and HTML requests; exact images extracted from official HTML, responsive sources, product metadata or image-search results for official product pages, then fetched and visually checked.",
+  "editorialNotes": [
+    "Interpretive fields are authored analyst readings, not factual brand claims.",
+    "Voice lines are illustrative, authored examples and are not quotations.",
+    "Palette hex values are approximate editorial readings of observed identity, not official brand specifications.",
+    "Category scope reflects the reviewed catalogue; stock and assortments can change."
+  ],
+  "brands": [
+    {
+      "id": "evereden",
+      "name": "Evereden",
+      "audienceScope": "Baby, kids, teens & maternity",
+      "tags": [
+        "care",
+        "sun"
+      ],
+      "officialPages": [
+        {
+          "label": "Official brand approach",
+          "url": "https://www.ever-eden.com/pages/safety"
+        },
+        {
+          "label": "Current categories",
+          "url": "https://www.ever-eden.com/"
+        },
+        {
+          "label": "Kids’ routine",
+          "url": "https://www.ever-eden.com/products/kids-daily-1-2-3-routine"
+        }
+      ],
+      "verifiedFacts": [
+        "Official navigation separates kids, teens, Mom & Baby; kids’ skincare/haircare, deodorant and fragrance mists are listed.",
+        "The Kids Daily 1-2-3 Routine page includes face wash, face cream and a sunscreen product.",
+        "The homepage currently foregrounds youth self-care, routine bundles and a Polly Pocket collaboration."
+      ],
+      "scopeNote": "No cosmetics tag: fragrance mists and deodorant alone were not treated as verified colour cosmetics. Specific age claims omitted because individual formats differ.",
+      "images": [
+        {
+          "url": "https://www.ever-eden.com/cdn/shop/files/DTC_HappyFaceTrio_Catalog_1126x.jpg?v=1764699597",
+          "sourcePage": "https://www.ever-eden.com/",
+          "alt": "Evereden kids’ face-care bottles in a coordinated routine",
+          "httpStatus": 200,
+          "width": 1126,
+          "height": 1424,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://www.ever-eden.com/cdn/shop/files/DTC_HappyHairTrio_Catalog_GWP_text_1126x.jpg?v=1759249338",
+          "sourcePage": "https://www.ever-eden.com/",
+          "alt": "Evereden Happy Hair Trio colourful packaging",
+          "httpStatus": 200,
+          "width": 1126,
+          "height": 1424,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "pipette",
+      "name": "Pipette",
+      "audienceScope": "Baby, kids & family",
+      "tags": [
+        "care",
+        "sun"
+      ],
+      "officialPages": [
+        {
+          "label": "Official story",
+          "url": "https://www.pipettebaby.com/pages/our-story"
+        },
+        {
+          "label": "Baby & kids’ catalogue",
+          "url": "https://www.pipettebaby.com/"
+        },
+        {
+          "label": "Kids’ collection",
+          "url": "https://www.pipettebaby.com/collections/kids"
+        }
+      ],
+      "verifiedFacts": [
+        "Official navigation includes Baby, Kids, Soothing and Suncare.",
+        "Catalogue lists baby shampoo/wash and lotion; kids’ shampoo, conditioner, detangler and face products; sunscreen lotion, spray and stick formats.",
+        "The story explicitly links visual simplicity to parents retaining their own identity and uses squalane as a recurring ingredient narrative."
+      ],
+      "scopeNote": "Many listed products showed Sold out at review; catalogue scope does not imply immediate availability.",
+      "images": [
+        {
+          "url": "https://www.pipettebaby.com/cdn/shop/files/Bundle_KidsHaircareTrio_eda0655d-eb39-47ee-8fbb-d38c034ae56c.jpg?v=1764723381&width=1300",
+          "sourcePage": "https://www.pipettebaby.com/",
+          "alt": "Pipette kids’ haircare trio packaging",
+          "httpStatus": 200,
+          "width": 1300,
+          "height": 1300,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://www.pipettebaby.com/cdn/shop/files/SPF-Mineral-Sunscreen-Discovery-Trio.jpg?v=1764723104&width=1300",
+          "sourcePage": "https://www.pipettebaby.com/",
+          "alt": "Pipette mineral sunscreen discovery trio packaging",
+          "httpStatus": 200,
+          "width": 1300,
+          "height": 1300,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "tubby",
+      "name": "Tubby Todd",
+      "audienceScope": "Baby, kids & family; Mama range",
+      "tags": [
+        "care",
+        "sun"
+      ],
+      "officialPages": [
+        {
+          "label": "Official story",
+          "url": "https://tubbytodd.com/pages/about-us"
+        },
+        {
+          "label": "Core routine",
+          "url": "https://tubbytodd.com/products/the-regulars-bundle"
+        },
+        {
+          "label": "Sun-care catalogue",
+          "url": "https://tubbytodd.com/collections/spf"
+        }
+      ],
+      "verifiedFacts": [
+        "Official story says Andrea Faulkner Williams and her husband created the brand for their family’s sensitive-skin concerns.",
+        "The Regulars Bundle lists Hair + Body Wash, Everyday Lotion and All Over Ointment.",
+        "Official sunscreen category lists lotion, Mineral Mist, Mineral Sunstick and SPF lip balm, alongside sets.",
+        "Navigation offers Baby, Kids and Mama routines, plus hair, bath and oral-care categories."
+      ],
+      "scopeNote": "Catalogue and product pages showed Sold out for multiple items at review. Clinical claims and testimonial efficacy were excluded from the analysis.",
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0287/5564/files/RegsLavRo25oz.jpg?v=1779223548",
+          "sourcePage": "https://tubbytodd.com/products/the-regulars-bundle",
+          "alt": "Tubby Todd Regulars Bundle pastel bottles and ointment jar",
+          "httpStatus": 200,
+          "width": 1280,
+          "height": 1280,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://tubbytodd.com/cdn/shop/files/NEW-Try-Tubby-Kit-product-images-1_02d92e93-47a7-457d-ba35-e27845756dd0.jpg?v=1738705321&width=1280",
+          "sourcePage": "https://tubbytodd.com/products/the-regulars-bundle",
+          "alt": "Tubby Todd travel kit with wash, lotion and ointment",
+          "httpStatus": 200,
+          "width": 1280,
+          "height": 1280,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "dabble",
+      "name": "Dabble & Dollop",
+      "audienceScope": "Baby, toddlers & kids",
+      "tags": [
+        "care"
+      ],
+      "officialPages": [
+        {
+          "label": "Official story",
+          "url": "https://dabbleanddollop.com/pages/about-us"
+        },
+        {
+          "label": "Current range",
+          "url": "https://dabbleanddollop.com/"
+        },
+        {
+          "label": "Brand FAQ & baby architecture",
+          "url": "https://dabbleanddollop.com/pages/faqs"
+        }
+      ],
+      "verifiedFacts": [
+        "Official story describes a founder inspired by children mixing shampoos and bubble baths at a company Kids Science Day.",
+        "Official FAQ defines the 3-in-1 as shampoo, body wash and bubble bath.",
+        "Official navigation lists foaming whips and bubbles, bath bombs, conditioner and detangler, and baby care.",
+        "Official FAQ states the former Dabble Ducky infant line is now Dabble & Dollop Baby."
+      ],
+      "scopeNote": "Mixability is the brand proposition; no author endorsement of ingredient safety claims. Seasonal imagery is the official current holiday campaign.",
+      "images": [
+        {
+          "url": "https://dabbleanddollop.com/cdn/shop/files/holiday-rainbow-bottles-on-box.jpg?v=1789684968",
+          "sourcePage": "https://dabbleanddollop.com/",
+          "alt": "Dabble & Dollop rainbow bath bottles and illustrated gift box",
+          "httpStatus": 200,
+          "width": 1200,
+          "height": 1200,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://dabbleanddollop.com/cdn/shop/files/IMG_6543_square.jpg?v=1793490546&width=1500",
+          "sourcePage": "https://dabbleanddollop.com/",
+          "alt": "Dabble & Dollop child holding bath-care bottles in a colourful campaign portrait",
+          "httpStatus": 200,
+          "width": 1152,
+          "height": 1152,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "think",
+      "name": "Thinkbaby / Think",
+      "audienceScope": "Baby, kids & family",
+      "tags": [
+        "sun"
+      ],
+      "officialPages": [
+        {
+          "label": "Official story",
+          "url": "https://thinksun.com/pages/our-story"
+        },
+        {
+          "label": "Current range & architecture",
+          "url": "https://thinksun.com/"
+        },
+        {
+          "label": "Original domain redirect",
+          "url": "https://gothink.com/"
+        }
+      ],
+      "verifiedFacts": [
+        "gothink.com redirects to thinksun.com.",
+        "Official architecture separates Baby, Kids, Sport and Daily sun care.",
+        "Current products include Thinkbaby lotion tubes and sticks; kids’ lotion, stick, spray and brush-on formats also appear.",
+        "Official navigation nests Body Care and Hardgoods under Last Chance."
+      ],
+      "scopeNote": "Current sun-care emphasis supersedes older hardgoods-led descriptions. Sunscreen formats are category facts, without application or health advice.",
+      "images": [
+        {
+          "url": "https://thinksun.com/cdn/shop/files/PH_TK_42684_TUBE_R0324.jpg?v=1712606236&width=1200",
+          "sourcePage": "https://thinksun.com/",
+          "alt": "Thinkbaby sunscreen tube on a white background",
+          "httpStatus": 200,
+          "width": 1200,
+          "height": 1200,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://thinksun.com/cdn/shop/files/PH_TK_FRONT_47221_R1225_a0aab95f-0a8c-4d88-810d-a57cca7e0317.jpg?v=1773869435&width=1200",
+          "sourcePage": "https://thinksun.com/",
+          "alt": "Thinkbaby white mineral sunscreen stick with orange lettering",
+          "httpStatus": 200,
+          "width": 1200,
+          "height": 1200,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "nailmatic",
+      "name": "Nailmatic Kids",
+      "audienceScope": "Kids’ line; wider brand includes teens & adults",
+      "tags": [
+        "care",
+        "cosmetics"
+      ],
+      "officialPages": [
+        {
+          "label": "Official story & packaging",
+          "url": "https://www.nailmatic.com/en/edito/who-are-we"
+        },
+        {
+          "label": "Kids’ nail polish",
+          "url": "https://www.nailmatic.com/en/638-kids-nail-polishes"
+        },
+        {
+          "label": "Current categories",
+          "url": "https://www.nailmatic.com/en/"
+        }
+      ],
+      "verifiedFacts": [
+        "Official story defines a dedicated children’s universe within a wider family brand.",
+        "Official categories include water-based kids’ polish, lip gloss, body gel, Tattoopen, bath products and gift sets.",
+        "Brand story describes illustrated packaging intended to be coloured or reused.",
+        "Adult and teen nail products are separately listed; kids’ products are not treated as the full parent-brand assortment."
+      ],
+      "scopeNote": "Kids’ water-based polish is distinct from the wider brand’s plant-based teen/adult nail polish. No age range generalised across products.",
+      "images": [
+        {
+          "url": "https://www.nailmatic.com/3826/party-5-nail-polish-set.jpg",
+          "sourcePage": "https://www.nailmatic.com/en/kids-sets/1196-party-5-nail-polish-set-3760229891984.html",
+          "alt": "Nailmatic Kids colourful illustrated nail-polish packaging",
+          "httpStatus": 200,
+          "width": 774,
+          "height": 774,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://www.nailmatic.com/10168/party-5-nail-polish-set.jpg",
+          "sourcePage": "https://www.nailmatic.com/en/kids-sets/1196-party-5-nail-polish-set-3760229891984.html",
+          "alt": "Nailmatic Kids Party nail-polish gift-set campaign",
+          "httpStatus": 200,
+          "width": 1920,
+          "height": 1920,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "minois",
+      "name": "Minois Paris",
+      "audienceScope": "Baby, children & family; women’s range",
+      "tags": [
+        "care"
+      ],
+      "officialPages": [
+        {
+          "label": "Official story",
+          "url": "https://www.minoisparis.com/en/pages/notre-histoire"
+        },
+        {
+          "label": "Current family categories",
+          "url": "https://www.minoisparis.com/en"
+        }
+      ],
+      "verifiedFacts": [
+        "Official story identifies Minois Paris as French-made baby and children’s care and names founder Hélène Fulchi.",
+        "Current English homepage explicitly extends the audience to the whole family and women’s care.",
+        "Homepage lists Delicate Gel, Gentle Cream and Body Lotion, with categories for bath, skincare, haircare and signature perfumes."
+      ],
+      "scopeNote": "The current brand is broader than a children-only skincare line. No sunscreen category was verified; no sun tag added.",
+      "images": [
+        {
+          "url": "https://www.minoisparis.com/cdn/shop/products/geldelicat.jpg?v=1668785571&width=533",
+          "sourcePage": "https://www.minoisparis.com/",
+          "alt": "Minois Paris Delicate Gel packaging",
+          "httpStatus": 200,
+          "width": 533,
+          "height": 533,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        },
+        {
+          "url": "https://www.minoisparis.com/cdn/shop/products/cremedouce.jpg?v=1668785355&width=533",
+          "sourcePage": "https://www.minoisparis.com/",
+          "alt": "Minois Paris Gentle Cream packaging",
+          "httpStatus": 200,
+          "width": 533,
+          "height": 533,
+          "contentType": "image/jpeg",
+          "verifiedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}

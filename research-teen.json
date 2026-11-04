@@ -1,0 +1,310 @@
+{
+  "checkedAt": "2026-11-04",
+  "method": "Official brand pages, live category navigation and published Shopify product data. Image URLs extracted from official HTML, verified by HTTP GET and decoded with Pillow; contact sheet visually inspected. Range is factual; perception, audience reading, positioning, visual description, axis placements and palette are editorial interpretation. Voice lines are newly authored examples, not brand quotations. This is a branding study, not product suitability guidance.",
+  "domainCorrections": {
+    "Sincerely Yours": "https://sincerely-yours.com is the official skincare brand, verified through its story and FAQ. The unhyphenated supplied domain was not used.",
+    "indu": "https://indu.me redirects to https://weareindu.com/."
+  },
+  "brands": [
+    {
+      "id": "bubble",
+      "name": "Bubble",
+      "officialSite": "https://hellobubble.com/",
+      "audienceEvidence": "Current About page says premium skincare should be for everyone; official community page includes teen ambassadors and campus programs. No numeric product age claim assigned.",
+      "rangeEvidence": "Live bestsellers lists Slam Dunk and Fresh Start; navigation lists cleanser, treatment, moisturizer, SPF, lip, mask, serum, spray, toner and color corrector.",
+      "caveat": "FAQ SPF statements lag the current collection, so no blanket SPF number is given.",
+      "sources": [
+        [
+          "Brand philosophy",
+          "https://hellobubble.com/pages/about"
+        ],
+        [
+          "Current bestsellers",
+          "https://hellobubble.com/collections/fan-faves"
+        ],
+        [
+          "Community",
+          "https://hellobubble.com/pages/community-page"
+        ]
+      ],
+      "images": [
+        {
+          "url": "https://hellobubble.com/cdn/shop/files/NEW-DTC_PDP_Slam-Dunk_1_silo_50ml_40d4b59d-0f5b-43dc-94d6-a4b44772e147.jpg?v=1791558781&width=3000",
+          "alt": "Bubble Slam Dunk mint moisturizer bottle with an orange cap",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            2000,
+            2000
+          ],
+          "verified": true,
+          "sourcePage": "https://hellobubble.com/collections/fan-faves",
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "url": "https://hellobubble.com/cdn/shop/files/NEW-DTC_PDP_PDP_Slam-Dunk_2.jpg?v=1783712073&width=3000",
+          "alt": "A hand holding Bubble Slam Dunk against a bright blue background",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            2000,
+            2000
+          ],
+          "verified": true,
+          "sourcePage": "https://hellobubble.com/collections/fan-faves",
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "starface",
+      "name": "Starface",
+      "officialSite": "https://starface.world/",
+      "audienceEvidence": "Homepage mascot copy and visible-patch self-expression are broad. Youth relevance is editorial, not an exclusive official teen age band. Website/legal participation ages are not product age claims.",
+      "rangeEvidence": "Official catalogue lists Hydro-Stars, compacts, refills, Star Strips, Star Balm, Star Wash, Star Cream and Star Treatment.",
+      "caveat": "No generic minimum or maximum product age assigned.",
+      "sources": [
+        [
+          "Patch collection",
+          "https://starface.world/collections/hydro-stars"
+        ],
+        [
+          "Current range & brand voice",
+          "https://starface.world/"
+        ],
+        [
+          "Product FAQs",
+          "https://starface.world/pages/faq"
+        ]
+      ],
+      "images": [
+        {
+          "url": "https://starface.world/cdn/shop/files/hp_1.jpg?v=1776335257",
+          "alt": "Starface campaign portrait showing a person wearing coloured star patches",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            2316,
+            3088
+          ],
+          "verified": true,
+          "sourcePage": "https://starface.world/",
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "url": "https://starface.world/cdn/shop/files/starface-hydro-stars-refill-yellow-salicylic-acid-recovery-bundle_b3c94e37-b672-4bb6-b7e0-a0194dca7e3f.jpg?v=1791229223&width=533",
+          "alt": "Starface yellow, purple and blue patch packaging on a vivid striped background",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            533,
+            666
+          ],
+          "verified": true,
+          "sourcePage": "https://starface.world/",
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "byoma",
+      "name": "BYOMA",
+      "officialSite": "https://byoma.com/",
+      "audienceEvidence": "Official About page addresses accessible barrier care and inclusive community, without an exclusive teenage claim. Youth relevance is editorial.",
+      "rangeEvidence": "Official navigation includes facial, body, lip and SPF products. Current product data includes Creamy Jelly Cleanser, Moisturising Gel Cream and adult-oriented Sensitive Retinol Oil.",
+      "caveat": "The range is not a teen-specific assortment; no blanket age suitability asserted.",
+      "sources": [
+        [
+          "Brand approach",
+          "https://byoma.com/pages/byoma-about-us"
+        ],
+        [
+          "Current range",
+          "https://byoma.com/"
+        ],
+        [
+          "Product FAQs",
+          "https://byoma.com/pages/faqs"
+        ]
+      ],
+      "images": [
+        {
+          "url": "https://byoma.com/cdn/shop/files/BarrierBoosting_Tile2.jpg?v=1788869854&width=533",
+          "alt": "BYOMA skincare bottles and tubes arranged on a vivid pink background",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            533,
+            533
+          ],
+          "verified": true,
+          "sourcePage": "https://byoma.com/",
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "url": "https://byoma.com/cdn/shop/files/610003D_2_a492557c-0cef-472f-ad53-2eecfe2401ce.jpg?v=1737567114&width=533",
+          "alt": "BYOMA pink Moisturising Gel Cream bottle photographed close up",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            533,
+            533
+          ],
+          "verified": true,
+          "sourcePage": "https://byoma.com/",
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "indu",
+      "name": "indu",
+      "officialSite": "https://weareindu.com/",
+      "audienceEvidence": "Official homepage FAQ identifies teens typically 13–19 while saying others also use the brand; current navigation separates under-15 and over-15 skincare. Age is attributed brand positioning.",
+      "rangeEvidence": "Homepage leads with Universal, Clarifying, SPF, Colourless, boosters and refills. Live makeup collection still lists customisable pods, wands, mascara, blush and eye products.",
+      "caveat": "indu.me redirects to weareindu.com. Current focus is skincare, but makeup is still publicly listed.",
+      "sources": [
+        [
+          "Current range & age FAQ",
+          "https://weareindu.com/"
+        ],
+        [
+          "The indu story",
+          "https://weareindu.com/pages/the-indu-story"
+        ],
+        [
+          "Makeup collection",
+          "https://weareindu.com/collections/makeup"
+        ]
+      ],
+      "images": [
+        {
+          "url": "https://weareindu.com/cdn/shop/collections/Back-to-basics-HP-dsk-1920.jpg?v=1785236415&width=1200",
+          "alt": "indu skincare products grouped against a pale blue background",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            1200,
+            812
+          ],
+          "verified": true,
+          "sourcePage": "https://weareindu.com/",
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "url": "https://weareindu.com/cdn/shop/files/SHOT_08_UniversalMoisturiser_4x5_81e23ee0-6bca-4875-96c2-356aa7265afb.png?v=1785568280&width=3840",
+          "alt": "indu Universal Soft-Cream Moisturiser in translucent packaging with a lavender cap",
+          "status": 200,
+          "mime": "image/png",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "verified": true,
+          "sourcePage": "https://weareindu.com/",
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "florence",
+      "name": "florence by mills",
+      "officialSite": "https://florencebymillsbeauty.com/",
+      "audienceEvidence": "Official brand story explicitly describes a brand for Gen Z by Gen Z. No numeric teen band stated.",
+      "rangeEvidence": "Official current navigation and product JSON include skincare, makeup, fragrance/body mists, hair care and kits.",
+      "caveat": "This profile covers the beauty brand; adjacent florence fashion or coffee ventures are not merged into the category range.",
+      "sources": [
+        [
+          "Official brand story",
+          "https://florencebymillsbeauty.com/pages/brand"
+        ],
+        [
+          "Current beauty catalogue",
+          "https://florencebymillsbeauty.com/"
+        ],
+        [
+          "Product FAQs",
+          "https://florencebymillsbeauty.com/pages/faq"
+        ]
+      ],
+      "images": [
+        {
+          "url": "https://florencebymillsbeauty.com/cdn/shop/files/FBM_AVAKIT_SILO_2700x4070_042525.jpg?v=1766402698&width=600",
+          "alt": "Lavender florence by mills pouch with miniature skincare and beauty products",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            600,
+            904
+          ],
+          "verified": true,
+          "sourcePage": "https://florencebymillsbeauty.com/",
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "url": "https://florencebymillsbeauty.com/cdn/shop/files/fbm-home-hero-high-note-mascara-millie.png?v=1793101684&width=1500",
+          "alt": "Millie Bobby Brown applying florence by mills mascara",
+          "status": 200,
+          "mime": "image/png",
+          "dimensions": [
+            1500,
+            1500
+          ],
+          "verified": true,
+          "sourcePage": "https://florencebymillsbeauty.com/",
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "sincerely",
+      "name": "Sincerely Yours",
+      "officialSite": "https://sincerely-yours.com/",
+      "audienceEvidence": "Official story and FAQ explicitly say created with teens, for teens; FAQ also identifies tweens. No numeric product age claim assigned.",
+      "rangeEvidence": "Live all-products collection includes original four essentials plus Clear Intentions toner, Face to Face Time clay mask, Sugarcoat Gloss Balm, travel minis, kits and Cloud Case.",
+      "caveat": "FAQ still says four products; live collection is the authority for current range. Correct official domain is hyphenated.",
+      "sources": [
+        [
+          "Official story",
+          "https://sincerely-yours.com/pages/our-story"
+        ],
+        [
+          "Current collection",
+          "https://sincerely-yours.com/collections/all"
+        ],
+        [
+          "Audience FAQ",
+          "https://sincerely-yours.com/pages/faq"
+        ]
+      ],
+      "images": [
+        {
+          "url": "https://sincerely-yours.com/cdn/shop/files/Fresh_Starter_Set_-_Hero_-_4x5_b3faea0b-eae2-454d-9ca3-70b05a70e111.jpg?v=1757172340&width=1440",
+          "alt": "Sincerely Yours Fresh Starter Set in pastel skincare packaging",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            800,
+            1000
+          ],
+          "verified": true,
+          "sourcePage": "https://sincerely-yours.com/",
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "url": "https://sincerely-yours.com/cdn/shop/files/sincerely_yours_table_shot_with_all_products-opt.jpg?v=1786649237&width=1440",
+          "alt": "Sincerely Yours products arranged on a small blue outdoor table",
+          "status": 200,
+          "mime": "image/jpeg",
+          "dimensions": [
+            360,
+            508
+          ],
+          "verified": true,
+          "sourcePage": "https://sincerely-yours.com/",
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}

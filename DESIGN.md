@@ -91,6 +91,18 @@ components:
   photographic-entry:
     backgroundColor: "{colors.image-ground}"
     width: "100%"
+  brand-select:
+    backgroundColor: "{colors.bg}"
+    textColor: "{colors.ink}"
+    typography: "{typography.navigation}"
+    padding: "9px 30px 9px 10px"
+    width: "100%"
+  scope-switch:
+    textColor: "{colors.muted}"
+    typography: "{typography.navigation}"
+    padding: "0 0 25px"
+  community-lens:
+    padding: "19px 0 0"
 ---
 
 # Design System: Children’s lifestyle — 19 studio
@@ -152,14 +164,15 @@ The shipped asset is `NeueHaasDisplayRoman.ttf`, registered as Haas with `font-d
 
 The layout is fluid without a fixed maximum container width. The header, main and footer share page gutters (36px). The index opens with two equal intro columns, then an open four-column photographic grid with row and column gaps (43px / 22px). Entries have no surrounding card shell.
 
-Profiles use a brand-index rail (190px), a rail-to-content gap (34px), and image/copy columns (`.9fr / 1fr`) separated by (32px). The rail is sticky at (24px). Spectrum panels and source content use two columns; comparison uses a horizontally scrollable table with fixed column layout.
+Profiles use a grouped brand-index rail (190px), a rail-to-content gap (34px), and image/copy columns (`.9fr / 1fr`) separated by (32px). The wayfinding wrapper is sticky at (24px). Spectrum panels and source content use two columns; comparison uses a horizontally scrollable table with fixed column layout. Collection headings separate the open lifestyle and care grids with a fine top rule and padding (38px 0 30px), without introducing a card shell.
 
 Responsive rules are exactly those shipped:
 
 - At **min-width (1600px)**: gutters grow to (55px), index gaps to (50px / 28px), the rail to (210px), and profile column gap to (50px).
 - At **max-width (1050px)**: gutters become (24px), the index has three columns, and the profile rail becomes (150px). Several profile fields stack.
-- At **max-width (760px)**: gutters become (20px), the index has two columns, intro and spectrum/source sections stack, and the brand rail becomes a wrapping horizontal list. Main navigation remains four visible text links on its own header row. The profile image and copy still share two columns.
+- At **max-width (760px)**: gutters become (20px), the index has two columns, intro and spectrum/source sections stack, and a native grouped brand selector replaces the desktop rail. Main navigation retains all five text links on its own header row, wrapping with gaps (7px / 12px). Profile actions wrap beneath the heading; the image and copy still share two columns. Comparison picker groups stack.
 - At **max-width (520px)**: the profile image and copy stack; the image changes to a landscape crop (`6/5`) with a maximum height (400px). Index entries remain in two columns. The comparison table keeps a minimum width (620px) and scrolls horizontally.
+- At **max-width (380px)**: main navigation becomes a three-column grid of intrinsic-width links, with gaps (7px / 10px) and type (13px). All five destinations remain visible across two rows. The native selector's label column narrows from (100px) to (82px).
 
 The recurring spacing vocabulary is small and explicit rather than a strict mathematical scale. Use the frontmatter’s extracted recurring steps and component-specific observed gaps. Print rules remove interactive navigation and use a white page ground.
 
@@ -177,11 +190,15 @@ The geometry is square and open. Rules are (1px), photographs have straight edge
 
 ### Text navigation
 
-Plain text links make every destination visible. The main navigation has a desktop gap (30px) and vertical link padding (12px). Current-page links underline. Hover underlines links; keyboard focus uses an olive outline (2px) offset by (5px). Mobile navigation remains fully visible. The profile brand index uses muted links with graphite underlining on the current brand.
+Plain text links make every destination visible: Children, Teenagers, Spectrum, Compare and Sources. The main navigation has a desktop gap (30px), narrowing to (19px) at the tablet breakpoint, and vertical link padding (12px). Current-page links underline. Hover underlines links; keyboard focus uses an olive outline (2px) offset by (5px). Mobile navigation remains fully visible, with vertical link padding (7px). The active profile keeps its age-group navigation current; Spectrum follows the current age group.
+
+### Profile wayfinding
+
+The desktop rail groups muted brand links under small group labels (11px), with link gaps (13px), graphite underlining on the current brand and an underlined return link to its age-group index. Children show Lifestyle and Care & protection groups; teenagers have their own group. At the mobile breakpoint, the rail is hidden and a labelled native select exposes all three groups as optgroups: Children · Lifestyle, Children · Care & protection, and Teenagers. Its label/control grid has a gap (14px), a fine bottom rule and bottom padding (20px). The square select uses the page ground, graphite type (15px), a fine rule border and the frontmatter padding. Choosing a brand opens its profile.
 
 ### Category filters
 
-These are unboxed text buttons, not filled chips. The group wraps with a desktop gap (22px). Inactive text is muted; the selected filter is graphite and underlined, with an underline offset (5px). Selection uses `aria-pressed` and updates the visible brand count.
+These are unboxed text buttons, not filled chips. The group wraps with desktop gaps (14px / 22px), changing to (13px / 16px) on mobile. Inactive text is muted; the selected filter is graphite and underlined, with an underline offset (5px). Selection uses `aria-pressed` and updates the visible brand count. Children offer All brands, Clothing, Play, Home, Care, Sun protection and Cosmetics; teenagers offer All brands, Skincare, SPF and Cosmetics. Filters retain deep links such as `#index/care`, `#index/sun`, `#index/cosmetics` and `#teens/care` without jumping to the page top.
 
 ### Profile tabs
 
@@ -189,21 +206,31 @@ A horizontal text tab list sits on a fine bottom rule. Tabs have a gap (28px) an
 
 ### Comparison actions and checkboxes
 
-The entry action is a small text button with vertical padding (8px), muted at rest and olive/underlined when added. Profile actions use (13px) text at larger widths. The comparison picker uses labelled native checkboxes (14px square) with olive accent and a minimum label height (32px). A maximum of three brands can be selected; unchecked inputs disable at the limit and their labels become muted. Selection persists in local storage. Add/remove feedback appears in the live status strip for (3200ms).
+The entry action is a small text button with vertical padding (8px), muted at rest and olive/underlined when added. Profile actions use (13px) text at larger widths. The comparison picker uses labelled native checkboxes (14px square) with olive accent and a minimum label height (32px). It groups Children · Lifestyle, Children · Care & protection, and Teenagers in one shared selection. Group labels are muted (12px); desktop groups use a label column (190px), gap (22px) and padding (15px 0 5px). At the tablet breakpoint the column becomes (155px), with gap (20px); mobile stacks the label above wrapping choices. A maximum of three brands can be selected across groups; unchecked inputs disable at the limit and their labels become muted. Selection persists in local storage. Add/remove feedback appears in the live status strip for (3200ms).
 
 ### Photographic entries
 
 Entries combine a linked image, brand name, comparison action, one short descriptor and ruled category metadata. Index images use a portrait ratio (`4/5`), `object-fit: cover` and the image-ground token. Hover enlarges the crop to (1.025) over (.35s) with `cubic-bezier(.2,.7,.2,1)`. Reduced motion removes transitions. Profile imagery carries a source caption; palette impressions belong to the featured brand analysis, not the interface palette.
 
+Teenage entries add a plain audience-scope line beneath the category: (11px), line height (1.35), and top margin (6px). This is supporting metadata, not a badge. Care and teen strategy profiles also carry Audience scope as a full-width fact, retaining the existing fact typography.
+
 ### Spectrum marks
 
 The five-position track has a fine connecting line, inactive dots (4px) and a selected olive dot (12px) with a ground-colored clearance outline (4px). Profile mini-scales use five (5px) high bars with a gap (4px), highlighting one olive segment. These are qualitative editorial positions, presented with accessible text descriptions rather than fabricated numerical scores.
+
+### Spectrum age-group switch
+
+Children and Teenagers are visible text links above the spectrum, using the navigation type, gap (28px), a fine bottom rule and bottom padding (25px), reduced to (20px) on mobile. Inactive text is muted; `aria-current` identifies the graphite, underlined selection. The links use `#spectrum/children` and `#spectrum/teens`. Audience language changes from Child’s imagination / Parent’s priorities to Teen identity / Adult reassurance; it does not combine the two groups into one measured scale.
+
+### Thingtesting lens
+
+Community context follows the strategic profile in a flat ruled section, with top margin (27px) and the frontmatter top padding. It uses the existing muted field label, reading text (15px / 1.4), an underlined source link (13px) with top margin (12px), and a muted caveat (11px / 1.4) with top margin (10px). Display it only where a reviewed Thingtesting source exists. Its qualitative context stays visibly distinct from official facts and editorial interpretation; comparison and sources retain direct links.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** keep all four main navigation links visible at narrow widths.
+- **Do** keep all five main navigation links visible at narrow widths.
 - **Do** pair real photography with concise readings and source credits.
 - **Do** distinguish selected states with the existing underline, border or olive mark.
 - **Do** preserve semantic links, tabs, checkbox labels and keyboard focus.

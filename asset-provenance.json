@@ -158,5 +158,265 @@
       1100,
       1500
     ]
+  },
+  {
+    "file": "evereden-0.jpg",
+    "brand": "evereden",
+    "url": "https://www.ever-eden.com/cdn/shop/files/DTC_HappyFaceTrio_Catalog_1126x.jpg?v=1764699597",
+    "page": "https://www.ever-eden.com/",
+    "size": [
+      1126,
+      1424
+    ]
+  },
+  {
+    "file": "evereden-1.jpg",
+    "brand": "evereden",
+    "url": "https://www.ever-eden.com/cdn/shop/files/DTC_HappyHairTrio_Catalog_GWP_text_1126x.jpg?v=1759249338",
+    "page": "https://www.ever-eden.com/",
+    "size": [
+      1126,
+      1424
+    ]
+  },
+  {
+    "file": "pipette-0.jpg",
+    "brand": "pipette",
+    "url": "https://www.pipettebaby.com/cdn/shop/files/Bundle_KidsHaircareTrio_eda0655d-eb39-47ee-8fbb-d38c034ae56c.jpg?v=1764723381&width=1300",
+    "page": "https://www.pipettebaby.com/",
+    "size": [
+      1300,
+      1300
+    ]
+  },
+  {
+    "file": "pipette-1.jpg",
+    "brand": "pipette",
+    "url": "https://www.pipettebaby.com/cdn/shop/files/SPF-Mineral-Sunscreen-Discovery-Trio.jpg?v=1764723104&width=1300",
+    "page": "https://www.pipettebaby.com/",
+    "size": [
+      1300,
+      1300
+    ]
+  },
+  {
+    "file": "tubby-0.jpg",
+    "brand": "tubby",
+    "url": "https://cdn.shopify.com/s/files/1/0287/5564/files/RegsLavRo25oz.jpg?v=1779223548",
+    "page": "https://tubbytodd.com/products/the-regulars-bundle",
+    "size": [
+      1280,
+      1280
+    ]
+  },
+  {
+    "file": "tubby-1.jpg",
+    "brand": "tubby",
+    "url": "https://tubbytodd.com/cdn/shop/files/NEW-Try-Tubby-Kit-product-images-1_02d92e93-47a7-457d-ba35-e27845756dd0.jpg?v=1738705321&width=1280",
+    "page": "https://tubbytodd.com/products/the-regulars-bundle",
+    "size": [
+      1280,
+      1280
+    ]
+  },
+  {
+    "file": "dabble-0.jpg",
+    "brand": "dabble",
+    "url": "https://dabbleanddollop.com/cdn/shop/files/holiday-rainbow-bottles-on-box.jpg?v=1789684968",
+    "page": "https://dabbleanddollop.com/",
+    "size": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "file": "dabble-1.jpg",
+    "brand": "dabble",
+    "url": "https://dabbleanddollop.com/cdn/shop/files/IMG_6543_square.jpg?v=1793490546&width=1500",
+    "page": "https://dabbleanddollop.com/",
+    "size": [
+      1152,
+      1152
+    ]
+  },
+  {
+    "file": "think-0.jpg",
+    "brand": "think",
+    "url": "https://thinksun.com/cdn/shop/files/PH_TK_42684_TUBE_R0324.jpg?v=1712606236&width=1200",
+    "page": "https://thinksun.com/",
+    "size": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "file": "think-1.jpg",
+    "brand": "think",
+    "url": "https://thinksun.com/cdn/shop/files/PH_TK_FRONT_47221_R1225_a0aab95f-0a8c-4d88-810d-a57cca7e0317.jpg?v=1773869435&width=1200",
+    "page": "https://thinksun.com/",
+    "size": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "file": "nailmatic-0.jpg",
+    "brand": "nailmatic",
+    "url": "https://www.nailmatic.com/3826/party-5-nail-polish-set.jpg",
+    "page": "https://www.nailmatic.com/en/kids-sets/1196-party-5-nail-polish-set-3760229891984.html",
+    "size": [
+      774,
+      774
+    ]
+  },
+  {
+    "file": "nailmatic-1.jpg",
+    "brand": "nailmatic",
+    "url": "https://www.nailmatic.com/10168/party-5-nail-polish-set.jpg",
+    "page": "https://www.nailmatic.com/en/kids-sets/1196-party-5-nail-polish-set-3760229891984.html",
+    "size": [
+      1600,
+      1600
+    ]
+  },
+  {
+    "file": "minois-0.jpg",
+    "brand": "minois",
+    "url": "https://www.minoisparis.com/cdn/shop/products/geldelicat.jpg?v=1668785571&width=533",
+    "page": "https://www.minoisparis.com/",
+    "size": [
+      533,
+      533
+    ]
+  },
+  {
+    "file": "minois-1.jpg",
+    "brand": "minois",
+    "url": "https://www.minoisparis.com/cdn/shop/products/cremedouce.jpg?v=1668785355&width=533",
+    "page": "https://www.minoisparis.com/",
+    "size": [
+      533,
+      533
+    ]
+  },
+  {
+    "file": "bubble-0.jpg",
+    "brand": "bubble",
+    "url": "https://hellobubble.com/cdn/shop/files/NEW-DTC_PDP_Slam-Dunk_1_silo_50ml_40d4b59d-0f5b-43dc-94d6-a4b44772e147.jpg?v=1791558781&width=3000",
+    "page": "https://hellobubble.com/collections/fan-faves",
+    "size": [
+      1600,
+      1600
+    ]
+  },
+  {
+    "file": "bubble-1.jpg",
+    "brand": "bubble",
+    "url": "https://hellobubble.com/cdn/shop/files/NEW-DTC_PDP_PDP_Slam-Dunk_2.jpg?v=1783712073&width=3000",
+    "page": "https://hellobubble.com/collections/fan-faves",
+    "size": [
+      1600,
+      1600
+    ]
+  },
+  {
+    "file": "starface-0.jpg",
+    "brand": "starface",
+    "url": "https://starface.world/cdn/shop/files/hp_1.jpg?v=1776335257",
+    "page": "https://starface.world/",
+    "size": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "starface-1.jpg",
+    "brand": "starface",
+    "url": "https://starface.world/cdn/shop/files/starface-hydro-stars-refill-yellow-salicylic-acid-recovery-bundle_b3c94e37-b672-4bb6-b7e0-a0194dca7e3f.jpg?v=1791229223&width=533",
+    "page": "https://starface.world/",
+    "size": [
+      533,
+      666
+    ]
+  },
+  {
+    "file": "byoma-0.jpg",
+    "brand": "byoma",
+    "url": "https://byoma.com/cdn/shop/files/BarrierBoosting_Tile2.jpg?v=1788869854&width=533",
+    "page": "https://byoma.com/",
+    "size": [
+      533,
+      533
+    ]
+  },
+  {
+    "file": "byoma-1.jpg",
+    "brand": "byoma",
+    "url": "https://byoma.com/cdn/shop/files/610003D_2_a492557c-0cef-472f-ad53-2eecfe2401ce.jpg?v=1737567114&width=533",
+    "page": "https://byoma.com/",
+    "size": [
+      533,
+      533
+    ]
+  },
+  {
+    "file": "indu-0.jpg",
+    "brand": "indu",
+    "url": "https://weareindu.com/cdn/shop/collections/Back-to-basics-HP-dsk-1920.jpg?v=1785236415&width=1200",
+    "page": "https://weareindu.com/",
+    "size": [
+      1200,
+      812
+    ]
+  },
+  {
+    "file": "indu-1.jpg",
+    "brand": "indu",
+    "url": "https://weareindu.com/cdn/shop/files/SHOT_08_UniversalMoisturiser_4x5_81e23ee0-6bca-4875-96c2-356aa7265afb.png?v=1785568280&width=3840",
+    "page": "https://weareindu.com/",
+    "size": [
+      1080,
+      1080
+    ]
+  },
+  {
+    "file": "florence-0.jpg",
+    "brand": "florence",
+    "url": "https://florencebymillsbeauty.com/cdn/shop/files/FBM_AVAKIT_SILO_2700x4070_042525.jpg?v=1766402698&width=600",
+    "page": "https://florencebymillsbeauty.com/",
+    "size": [
+      600,
+      904
+    ]
+  },
+  {
+    "file": "florence-1.jpg",
+    "brand": "florence",
+    "url": "https://florencebymillsbeauty.com/cdn/shop/files/fbm-home-hero-high-note-mascara-millie.png?v=1793101684&width=1500",
+    "page": "https://florencebymillsbeauty.com/",
+    "size": [
+      1500,
+      1500
+    ]
+  },
+  {
+    "file": "sincerely-0.jpg",
+    "brand": "sincerely",
+    "url": "https://sincerely-yours.com/cdn/shop/files/Fresh_Starter_Set_-_Hero_-_4x5_b3faea0b-eae2-454d-9ca3-70b05a70e111.jpg?v=1757172340&width=1440",
+    "page": "https://sincerely-yours.com/",
+    "size": [
+      800,
+      1000
+    ]
+  },
+  {
+    "file": "sincerely-1.jpg",
+    "brand": "sincerely",
+    "url": "https://sincerely-yours.com/cdn/shop/files/sincerely_yours_table_shot_with_all_products-opt.jpg?v=1786649237&width=1440",
+    "page": "https://sincerely-yours.com/",
+    "size": [
+      360,
+      508
+    ]
   }
 ]

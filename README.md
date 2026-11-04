@@ -1,6 +1,6 @@
-# Children’s lifestyle — 19 studio
+# Children & teens — 19 studio
 
-A visual and strategic study of eight children's lifestyle brands, covering perception, audience, tone, identity, archetype, illustration and product range.
+A visual and strategic study of 21 brands: eight original children’s lifestyle brands, seven care/protection/cosmetic brands and six teenage profiles. Covers perception, audience, tone, identity, archetype, illustration and product range, with verified Thingtesting context where available.
 
 ## Run locally
 
@@ -9,6 +9,13 @@ npm run dev
 ```
 
 Open http://localhost:4319. The site uses static HTML, CSS and JavaScript modules; no build or dependencies are required.
+
+For the current local review:
+
+- Children’s care: http://127.0.0.1:4319/#index/care
+- Teenagers: http://127.0.0.1:4319/#teens
+
+This version was reviewed locally and approved for publication to GitHub Pages.
 
 ## Publish
 

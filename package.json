@@ -4,6 +4,6 @@
   "type": "module",
   "scripts": {
     "dev": "python3 -m http.server 4319 --directory dist",
-    "check": "node --check dist/app.js && node --check dist/brands.js && node --check dist/credits.js"
+    "check": "node --check dist/app.js && node --check dist/brands.js && node --check dist/care-brands.js && node --check dist/teen-brands.js && node --check dist/thingtesting.js && node --check dist/credits.js"
   }
 }

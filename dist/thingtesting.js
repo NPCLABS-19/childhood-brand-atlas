@@ -1,0 +1,14 @@
+// Qualitative observations from visible Thingtesting profiles reviewed 4 November 2026.
+// Sources are self-selected community samples; no ratings are used as comparative evidence.
+export const thingtesting = {
+ evereden:{url:'https://thingtesting.com/brands/evereden',kind:'reviews',note:'The visible sample discusses gifting, scents, pack shapes and the pleasure of a routine. Product experience varies, so visual appeal should not be mistaken for a universal outcome.'},
+ pipette:{url:'https://thingtesting.com/brands/pipette',kind:'reviews',note:'Everyday texture and packaging usability feature in the sample, alongside mixed sunscreen experiences. The practical details can matter as much as the gentle visual promise.'},
+ tubby:{url:'https://thingtesting.com/brands/tubby-todd',kind:'reviews',note:'The small sample speaks in a parent’s voice: repeated family use, texture and fragrance choices. That supports a community-led reading without establishing a demographic or efficacy finding.'},
+ dabble:{url:'https://thingtesting.com/brands/dabble-and-dollop',kind:'limited',note:'The profile describes mixable bath play. The single visible review is too small a basis for a perception claim; it is used as discovery context only.'},
+ bubble:{url:'https://thingtesting.com/brands/bubble-skincare',kind:'reviews',note:'The visible reviews weigh routine, texture and packaging details as well as appearance. Colourful brand appeal and satisfaction with an individual product are distinct questions.'},
+ starface:{url:'https://thingtesting.com/brands/starface',kind:'reviews',note:'Enthusiasm for the look and compact sits alongside criticism of patch usability and performance. The contrast makes brand attraction versus perceived utility especially visible.'},
+ byoma:{url:'https://thingtesting.com/brands/byoma',kind:'reviews',note:'The sample discusses expectations, price alternatives and specific product experiences. A bright identity can coexist with an ingredient- and value-conscious buying rationale.'},
+ indu:{url:'https://thingtesting.com/brands/indu',kind:'directory',note:'Thingtesting’s claimed profile explicitly places indu in teen skincare and makeup. No reviews were visible when checked, so this supports discovery and stated positioning, not consumer sentiment.'},
+ florence:{url:'https://thingtesting.com/brands/florence-by-mills',kind:'reviews',note:'Playful designs and the experience of a beauty ritual recur in the sample, while views on product results vary. Mood and identification are part of the attraction, rather than proof of a product outcome.'},
+ sincerely:{url:'https://thingtesting.com/brands/sincerelyyours',kind:'limited',note:'The matching skincare profile has only a handful of reviews. Packaging and the site experience appear alongside delivery concerns; the sample is too limited to infer teen preference.'}
+};
