@@ -1,4 +1,7 @@
-export const brands = [
+import {careBrands} from './care-brands.js';
+import {teenBrands} from './teen-brands.js';
+
+const lifestyleBrands = [
 {
  id:'bobo',name:'Bobo Choses',origin:'Spain',category:'Clothing & lifestyle',territory:'Childhood as creative freedom',short:'Artful, curious, playfully offbeat.',audience:'Child-led imagination',aesthetic:'Expressive contemporary',archetype:'Creator × Jester',address:0,style:4,
  perception:'A small creative universe you can wear.',
@@ -58,3 +61,6 @@ export const brands = [
  core:'Children’s furniture & home textiles',hero:'Growing Green furniture, evolving cribs and soft seating.',range:['Baby & kids furniture','Beds & storage','Bedding & curtains','Soft seating','Lighting & décor','Baby bags & accessories'],rangeNote:'Now extends into whole-home furniture and objects. Children’s design remains a major part of a wider interior world.',position:'Premium design-led interiors',difference:'A child’s room belongs to a coherent home, with design and material quality as the common language.',watch:'Less overt character and humour than Oeuf; more textile and whole-home breadth.',sources:[['Brand & design team','https://nobodinoz.com/pages/about-us/'],['Furniture & home categories','https://nobodinoz.com/']],alt:['Nobodinoz Growing Green furniture in a considered colour palette','Nobodinoz wooden cabinet in a minimal interior']
 }
 ];
+
+const lifestyleTags={bobo:['clothing'],mini:['clothing'],oeuf:['home'],stapelstein:['play'],oli:['play'],liewood:['clothing','play','home'],konges:['clothing','play','home'],nobodinoz:['home']};
+export const brands = [...lifestyleBrands.map(b=>({...b,segment:'children',collection:'lifestyle',tags:lifestyleTags[b.id],audienceScope:'Children & families'})),...careBrands.map(b=>({...b,collection:'care'})),...teenBrands.map(b=>({...b,collection:'teens'}))];
