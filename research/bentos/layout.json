@@ -1,0 +1,73 @@
+{
+  "source": "https://www.rebrand.gallery/bento/theaterbaren",
+  "sourceImage": "https://cdn.rebrand.gallery/images/vf63fv1z/production/22ef27153e0d3ecd47d71eb5e7c0d637b230bcf2-1080x1080.jpg",
+  "canvas": [
+    1080,
+    1080
+  ],
+  "padding": 40,
+  "gap": 12,
+  "radius": 12,
+  "rowHeights": [
+    356,
+    264,
+    356
+  ],
+  "columns": 4,
+  "tiles": [
+    [
+      40,
+      40,
+      494,
+      356
+    ],
+    [
+      546,
+      40,
+      241,
+      356
+    ],
+    [
+      799,
+      40,
+      241,
+      356
+    ],
+    [
+      40,
+      408,
+      241,
+      264
+    ],
+    [
+      293,
+      408,
+      494,
+      264
+    ],
+    [
+      799,
+      408,
+      241,
+      264
+    ],
+    [
+      40,
+      684,
+      241,
+      356
+    ],
+    [
+      293,
+      684,
+      241,
+      356
+    ],
+    [
+      546,
+      684,
+      494,
+      356
+    ]
+  ]
+}
