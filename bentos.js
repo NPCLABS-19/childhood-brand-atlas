@@ -1,4 +1,4 @@
-import {validateBoard, connectGitHub, publishBoard, deploymentStatus, repository} from './bento-publish.js?v=20261120-v3';
+import {validateBoard, connectGitHub, publishBoard, deploymentStatus, repository} from './bento-publish.js?v=20261120-v4';
 
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels = ['Top left · wide','Top centre','Top right','Middle left','Middle centre · wide','Middle right','Bottom left','Bottom centre','Bottom right · wide'];
@@ -75,7 +75,7 @@ function connection() {
 }
 function content() {
   return `<div class="bento-toolbar"><div class="bento-tool-group"><button class="text-link" data-bento-action="preview">${preview?'Edit tiles':'Preview'}</button>${board.tiles.some(tile=>tile.type.startsWith('video/')||tile.type==='image/gif')?`<button class="text-link" data-bento-action="motion">${motionPaused?'Play motion':'Pause motion'}</button>`:''}<button class="text-link" data-bento-action="png">Download image</button></div><div class="bento-tool-group"><button class="text-link" data-bento-action="export">Download project</button><button class="text-link" data-bento-action="import" ${publishing?'disabled':''}>Import project</button><button class="text-link" data-bento-action="load-published" ${publishing?'disabled':''}>Load published board</button></div></div>
-    ${resetRequested?'<div class="bento-reset-prompt"><p>Replace your local draft with the published board? Download your project first to keep a copy.</p><button class="text-link" data-bento-action="cancel-reset">Keep editing</button><button class="text-link" data-bento-action="confirm-reset">Replace draft</button></div>':''}<p id="bento-status" class="bento-status ${messageError?'is-error':''}" role="status" aria-live="polite">${esc(message)}${publicationUrl?` <a class="text-link" href="${publicationUrl}" target="_blank" rel="noopener">Publishing status</a>`:''}</p>
+    ${resetRequested?'<div class="bento-reset-prompt"><p>Replace your local draft with the published board? Download your project first to keep a copy.</p><button class="text-link" data-bento-action="cancel-reset">Keep editing</button><button class="text-link" data-bento-action="confirm-reset">Replace draft</button></div>':''}<p id="bento-status" tabindex="-1" class="bento-status ${messageError?'is-error':''}" role="status" aria-live="polite">${esc(message)}${publicationUrl?` <a class="text-link" href="${publicationUrl}" target="_blank" rel="noopener">Publishing status</a>`:''}</p>
     <div class="bento-workspace ${preview?'is-preview':''} ${publishing?'is-publishing':''}"><div class="bento-canvas-container"><div class="bento-board" aria-label="Nine-tile Bento board">${board.tiles.map(tileHtml).join('')}</div></div>${inspector()}</div>
     ${connection()}<input id="bento-file" type="file" accept="image/png,image/jpeg,image/webp,image/gif,video/mp4,video/webm" hidden><input id="bento-project-file" type="file" accept="application/json,.json" hidden>
     <div class="section-end"><p class="note-line">Theaterbaren layout: nine individually editable tiles, with the reference spacing, proportions and rounded corners. Images and motion clips are supported.</p><a class="text-link" href="https://www.rebrand.gallery/bento/theaterbaren" target="_blank" rel="noopener">View layout reference</a></div>`;
@@ -172,7 +172,7 @@ async function waitForDeployment(sha, generation) {
   for (let i=0;i<24;i++) {
     await new Promise(resolve=>setTimeout(resolve,10000));
     if(generation!==pendingDeployment)return;
-    let result;try{result=await deploymentStatus(sha);}catch{setMessage('Saved to GitHub. Open publishing status to check the website update.');return;}
+    let result;try{result=await deploymentStatus(githubToken,sha);}catch{setMessage('Saved to GitHub. Open publishing status to check the website update.');return;}
     if(result.status==='completed') {
       setMessage(result.conclusion==='success'?(dirty?'The published version is live. You have unpublished draft changes.':'Published. Everyone can now see this board.'):'The board was saved to GitHub, but website publishing did not finish. Check the publishing run.',result.conclusion!=='success');
       return;
@@ -191,7 +191,7 @@ async function publish() {
   } catch(error) {
     if(error.savedBoard){board=error.savedBoard;baseUpdatedAt=board.updatedAt;dirty=true;await saveDraft();}
     throw error;
-  } finally {publishing=false;paint();}
+  } finally {publishing=false;paint('bento-status');}
 }
 document.addEventListener('submit',async event=>{
   if(event.target.id!=='bento-connect-form')return;event.preventDefault();
