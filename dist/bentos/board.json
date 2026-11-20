@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "title": "Amaira \u2014 working bento",
-  "updatedAt": "2026-11-20T10:00:00+05:30",
+  "title": "Amaira — working bento",
+  "updatedAt": "2026-11-20T09:24:45.974Z",
   "tiles": [
     {
       "id": 1,
@@ -46,7 +46,7 @@
     {
       "id": 5,
       "name": "Shape study",
-      "src": "assignment/amaira/09.webp",
+      "src": "bentos/media/3c6f40618634e537fb207c37246caf62039c5de84426b0e8718216ba2de3cd7c.webp",
       "type": "image/webp",
       "fit": "contain",
       "background": "#FAFAF8",
