@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "title": "Amaira — working bento",
+  "updatedAt": "2026-11-20T09:24:45.974Z",
+  "tiles": [
+    {
+      "id": 1,
+      "name": "A favourite logo, reworked",
+      "src": "assignment/amaira/12.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 2,
+      "name": "Water bottle",
+      "src": "assignment/amaira/06.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 3,
+      "name": "Extracted palette",
+      "src": "assignment/amaira/extracted/palette.svg",
+      "type": "image/svg+xml",
+      "fit": "cover",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 4,
+      "name": "Washroom sign",
+      "src": "assignment/amaira/01.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 5,
+      "name": "Shape study",
+      "src": "bentos/media/3c6f40618634e537fb207c37246caf62039c5de84426b0e8718216ba2de3cd7c.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 6,
+      "name": "Store team clothing",
+      "src": "assignment/amaira/04.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 7,
+      "name": "Glasses for friends",
+      "src": "assignment/amaira/14.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 8,
+      "name": "A better toy",
+      "src": "assignment/amaira/08.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    },
+    {
+      "id": 9,
+      "name": "School bag",
+      "src": "assignment/amaira/07.webp",
+      "type": "image/webp",
+      "fit": "contain",
+      "background": "#FAFAF8",
+      "positionX": 50,
+      "positionY": 50
+    }
+  ]
+}

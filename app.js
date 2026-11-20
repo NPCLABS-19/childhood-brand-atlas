@@ -1,3 +1,6 @@
+import {renderBentos,initBentos} from './bentos.js?v=20261120-v3';
+import {renderWip} from './wip.js?v=20261120-v3';
+import {renderAssignment} from './assignment.js?v=20261120-v3';
 import {brands} from './brands.js?v=20261104-care-teens';
 import {credits} from './credits.js?v=20261104-care-teens';
 import {thingtesting} from './thingtesting.js?v=20261104-care-teens';
@@ -59,10 +62,11 @@ const missing=()=>'<section class="error-view"><h1>That page isn’t in this stu
 function render(scroll=true){
  const [route,id,tab]=(location.hash.slice(1)||'index').split('/');
  if(route==='index'){activeScope='children';filters.children=['clothing','play','home','care','sun','cosmetics'].includes(id)?id:'all'}else if(route==='teens'){activeScope='teens';filters.teens=['care','sun','cosmetics'].includes(id)?id:'all'}else if(route==='brand'&&byId(id))activeScope=byId(id).segment;else if(route==='spectrum'&&['children','teens'].includes(id))activeScope=id;
- const navRoute=route==='brand'?(activeScope==='teens'?'teens':'index'):route;
+ const navRoute=route==='brand'?(activeScope==='teens'?'teens':'index'):route==='assignment'?'wip':route;
  document.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav===navRoute)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');if(a.dataset.nav==='spectrum')a.href='#spectrum/'+activeScope});
- main.innerHTML=route==='index'?index():route==='teens'?index('teens'):route==='brand'?profile(id,tab):route==='spectrum'?spectrum(activeScope):route==='compare'?compare():route==='sources'?sources():missing();
- document.title=route==='brand'&&byId(id)?`${byId(id).name} — 19 studio`:`${{index:'Children’s worlds',teens:'Teenage identities',spectrum:'Brand spectrum',compare:'Compare brands',sources:'Sources & method'}[route]||'Brand study'} — 19 studio`;
+ main.innerHTML=route==='index'?index():route==='teens'?index('teens'):route==='brand'?profile(id,tab):route==='spectrum'?spectrum(activeScope):route==='compare'?compare():route==='sources'?sources():route==='assignment'?renderAssignment(id,tab):route==='wip'?renderWip(id,tab):route==='bentos'?renderBentos():missing();
+ document.title=route==='brand'&&byId(id)?`${byId(id).name} — 19 studio`:`${{index:'Children’s worlds',teens:'Teenage identities',spectrum:'Brand spectrum',compare:'Compare brands',sources:'Sources & method',assignment:'Creative assignment',wip:'WIP · Amaira',bentos:'Bentos'}[route]||'Brand study'} — 19 studio`;
+ if(route==='bentos')void initBentos();
  if(scroll)window.scrollTo({top:0,behavior:'instant'});
  if(route==='sources'&&id)document.getElementById(`source-${id}`)?.scrollIntoView({block:'center'});
 }
