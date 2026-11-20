@@ -117,8 +117,8 @@ async function publishToPages({token,mainCommit,mainTree,onProgress,fetchImpl}) 
   return commit.sha;
 }
 
-export async function deploymentStatus(sha, fetchImpl = fetch) {
-  const builds = await api('', `${root}/pages/builds?per_page=10`, 'GET', null, fetchImpl);
+export async function deploymentStatus(token, sha, fetchImpl = fetch) {
+  const builds = await api(token, `${root}/pages/builds?per_page=10`, 'GET', null, fetchImpl);
   const build = builds.find(build=>build.commit===sha);
   return build ? {status:['built','errored'].includes(build.status)?'completed':build.status,conclusion:build.status==='built'?'success':build.status==='errored'?'failure':null,url:`https://github.com/${repository}/actions`} : {status:'queued'};
 }

@@ -1,5 +1,5 @@
-import {renderAssignment} from './assignment.js?v=20261120-v3';
-import {extractions} from './amaira-extractions.js?v=20261120-v3';
+import {renderAssignment} from './assignment.js?v=20261120-v4';
+import {extractions} from './amaira-extractions.js?v=20261120-v4';
 
 const esc = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 

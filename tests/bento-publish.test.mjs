@@ -87,11 +87,11 @@ test('a Pages failure returns the saved source board so the editor can retry wit
     assert.equal(error.savedSha,'published-commit');assert.ok(error.savedBoard.updatedAt!==original.updatedAt);assert.match(error.message,/saved to GitHub/);return true;
   });
 });
-test('deployment completion belongs to the exact Pages commit and uses the public API without credentials',async()=>{
+test('deployment completion belongs to the exact Pages commit and uses the owner connection only at GitHub',async()=>{
   const fetchImpl=async(url,options)=>{
-    assert.ok(url.endsWith('/pages/builds?per_page=10'));assert.ok(!('Authorization' in options.headers));
+    assert.ok(url.endsWith('/pages/builds?per_page=10'));assert.equal(options.headers.Authorization,'Bearer test-credential');
     return new Response(JSON.stringify([{commit:'different-commit',status:'built'},{commit:'my-pages',status:'building'}]));
   };
-  assert.equal((await deploymentStatus('my-pages',fetchImpl)).status,'building');
-  assert.equal((await deploymentStatus('missing',fetchImpl)).status,'queued');
+  assert.equal((await deploymentStatus('test-credential','my-pages',fetchImpl)).status,'building');
+  assert.equal((await deploymentStatus('test-credential','missing',fetchImpl)).status,'queued');
 });
